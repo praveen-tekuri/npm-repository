@@ -32,6 +32,16 @@
   - e: React.FormEvent<HTMLFormElement>
     - navigate(`/search?term=${term}`)
 
+### Details Page
+- getPackage.ts
+  - https://registry.npmjs.org/react
+  - interface for API response
+  - API call to get the package
+- detailsLoader.ts
+  - interface for params
+  - interface for DetailsLoaderResult
+- DetailsPage.tsx
+  - rendering the details
 
 
 ### How to Start the application
