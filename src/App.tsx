@@ -3,6 +3,7 @@ import Root from "./pages/Root";
 import { HomePage } from "./pages/HomePage";
 import { SearchPage } from "./pages/SearchPage";
 import { DetailsPage } from "./pages/DetailsPage";
+import { searchLoader } from "./pages/searchLoader";
 
 const router = createBrowserRouter([
   {
@@ -15,7 +16,8 @@ const router = createBrowserRouter([
       },
       {
         path: '/search',
-        element: <SearchPage/>
+        element: <SearchPage/>,
+        loader: searchLoader
       },
       {
         path: '/packages/:name',
