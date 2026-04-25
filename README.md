@@ -42,6 +42,13 @@
   - interface for DetailsLoaderResult
 - DetailsPage.tsx
   - rendering the details
+### Home Page
+- getFeaturedPackages.ts
+  - Reusing PackageDetails interface
+  - Making multiple API calls parallel with given package names
+  - promise.all
+- Homepage.tsx
+  - displaying the featured products
 
 
 ### How to Start the application
