@@ -24,6 +24,14 @@
 - SearchPage.tsx
   - `useLoaderData` is a hook provided by react-router that allows us to access the data returned by the loader function associated with the route. 
   - http://localhost:5173/search?term=redux (to test the response)
+  - Returning PackageListItem
+    - rendering the data with links
+        - <Link to ={`/packages/${pkg.name}`}>View Details</Link>
+- SearchInput.tsx
+  - useNavigate
+  - e: React.FormEvent<HTMLFormElement>
+    - navigate(`/search?term=${term}`)
+
 
 
 ### How to Start the application
