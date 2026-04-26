@@ -56,3 +56,10 @@
 - cd npm-repository
 - npm install
 - npm run dev
+
+### Application Screens
+![HomePage](public/s1.png)
+
+![SearchPage](public/s2.png)
+
+![DetailsPage](public/s3.png)
